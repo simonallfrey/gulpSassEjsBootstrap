@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themesberg Gulp, Bootstrap SASS and BrowserSync Tutorial</title>
+    <link rel="stylesheet" href="css/themesberg.css">
+    <style>
+    [class*="col"] {
+        padding: 1rem;
+        background-color: #3c6360;
+        border: 2px solid #fff;
+        color: #000;
+        text-align: center;
+    }
+     .container {
+       padding: 1rem;
+       background-color: #64a19d;
+       border: 2px solid #fff;
+       text-align: center;
+     }
+    </style>
+
+</head>
+<body>
+  <p>Test 1234</p>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <% c1 = "col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12" %>
+    <% c2 = "right as rain?" %>
+
+    <div class="container ">
+      <div class="row gx-9">
+        <div class=" <%= c1%>">
+            Baby buggle likes pinguo
+        </div>
+        <div class=" <%= c1%>">
+          <%=c2%>
+        </div>
+        <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+        <div class=" col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          col-xxl-1.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-xs-12
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container px-4 ">
+      <div class="row gx-1">
+        <div class=" col-4"> <div class="p-3 border"> gutter 1 </div> </div>
+        <div class=" col-4"> <div class="p-3 border"> gutter 2 </div> </div>
+        <div class=" col-4"> <div class="p-3 border"> gutter 3 </div> </div>
+      </div>
+    </div>
+</body>
+</html>
